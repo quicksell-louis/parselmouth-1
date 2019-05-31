@@ -694,7 +694,7 @@ class DFPClient(object):
             report_id = report_downloader.WaitForReport(
                 {'reportQuery': report_query},
             )
-        except DfpReportError, e:
+        except DfpReportError as e:
             logging.exception(e)
             return None
 

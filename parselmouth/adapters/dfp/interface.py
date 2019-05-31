@@ -14,7 +14,7 @@ from __future__ import unicode_literals
 import logging
 from datetime import timedelta
 from pytz import timezone
-from urllib import quote
+from urllib.parse import *
 
 # Parselmouth Imports
 from parselmouth.adapters.abstract_interface import AbstractInterface
